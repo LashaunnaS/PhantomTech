@@ -1,0 +1,178 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	padding: 0;
+	margin: 0 0 100px;
+	background: white;
+}
+body, input, select, textarea {
+	color: #555f66;
+	font-family: "Roboto", Helvetica, sans-serif;
+	font-size: 14pt;
+	font-weight: 300;
+	line-height: 1.75em;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+a {
+	color: #629DD1;
+	text-decoration: none;
+}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+p {
+	margin: 0 0 2em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #666f77;
+	font-weight: 300;
+	line-height: 1em;
+	margin: 0 0 1em 0;
+	text-transform: uppercase;
+	letter-spacing: 0.125em;
+}
+
+h2 {
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+h3 {
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+
+h4 {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+h5 {
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+
+h6 {
+	font-size: 0.7em;
+	line-height: 1.5em;
+}
+
+/* Styles for Navigation */
+
+header {
+	text-align: center;
+}
+
+header h1 {
+	margin-top: 25px;
+}
+
+nav {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+nav li {
+	display: inline;
+	padding: 0 15px;
+}
+
+/* Stlyes for Main */
+
+main {
+	max-width: 1024px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	margin-bottom: 150px;
+}
+
+/* Styles for Footer */
+
+footer {
+	height: 100px;
+	width: 100%;
+	background: #2c2c2c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.inner-wrapper {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+/* Styles for Index */
+
+main figure {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.image-container {
+	position: relative;
+}
+
+.image-container img {
+	max-width: 100%;
+	height: auto;
+}
+
+.image-container p {
+	padding: 10px;
+	color: #f8f8f8;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	z-index: 1;
+	bottom: -30px;
+}
+
+/* Styles for form */
+
+.form-group {
+	width: 46%;
+	float: left;
+	margin: 0;
+	padding: 1% 2%;
+}
+
+.form-group label {
+	float: left;
+}
+
+.form-group input {
+	width: 100%;
+}
+
+form button {
+	float: right;
+	margin-top: 25px;
+	width: 25%;
+	padding: 10px;
+	text-align: center;
+	color: #629DD1;
+	border: 1px solid #629DD1;
+	border-radius: 3px;
+	background: white;
+}
+
+form button:hover {
+	background: #629DD1;
+	cursor: pointer;
+	color: white;
+}

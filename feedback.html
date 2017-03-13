@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+	<head>
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<meta charset="utf-8" />
+		<title>Phantom Tech | Feedback</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<header>
+			<h1>Give Us Feedback</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html" title="Home">Home</a></li>
+					<li><a href="promo.html" title="Promotion Details">Promo Details</a></li>
+					<li><a href="about.html" title="About Product">About</a></li>
+					<li><a href="feedback.html" title="Feedback">Rate/Comment</a></li>
+					<li><a href="corporate.html" title="Who we are">Who We Are</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h2>Let Us Know What You Think</h2>
+			<p>Your suggestions and ideas are important to us. With over a billion people using Phantom Tech products,
+				feedback from community members like you helps us to constantly improve our features and services.
+				Though we can't respond to everyone who submits feedback, we review many of the ideas people send
+				us and use them to improve the Phantom Tech experience for everyone.</p>
+
+			<p>If you're not looking to give feedback but you need help with a specific issue, you can find answers
+				to common questions in the <a href="support.html">Help Centre</a>.</p>
+
+			<form method="post" action="save-feedback.php">
+					<fieldset>
+						<legend>Give Us Feedback About a Phantom Tech Feature</legend>
+					<div class="form-group">
+			            <label for="firstName">First Name:</label>
+			            <input type="text" id="firstName" name="firstName" required placeholder="Type first name here" />
+			        </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" required placeholder="Type last name here" />
+                    </div>
+					<div class="form-group">
+			        <label for="email">E-mail:</label>
+			        <input type="text" id="email" name="email" required placeholder="Type email here" />
+			    </div>
+			    </div>
+
+					<div class="form-group">
+			      <label for="Country">Country:</label>
+						<select for="country" name="Country">
+							<option value="Choose">Choose...</option>
+							<option value="AL">Albania</option>
+							<option value="BS">Bahamas</option>
+							<option value="CA">Canada</option>
+							<option value="DO">Dominican Republic</option>
+							<option value="EG">Egypt</option>
+							<option value="FJ">Fiji</option>
+							<option value="DE">Germany</option>
+							<option value="HT">Hati</option>
+							<option value="IN">India</option>
+							<option value="JM">Jamaica</option>
+							<option value="KE">Kenya</option>
+							<option value="LB">Lebanon</option>
+							<option value="MG">Madagascar</option>
+							<option value="Other">Other</option>
+						</select>
+		        <input type="text" id="country" name="country" placeholder="Other"/>
+				</div>
+
+				<button type="Submit">Submit</button>
+                        <input name="feedback_id" type="hidden" />
+                    </fieldset>
+			</form>
+		</main>
+
+		<footer>
+			<div class="inner-wrapper">
+				<small><a href="#" title="Support">Support</a></small>
+			</div>
+		</footer>
+	</body>
+</html>
